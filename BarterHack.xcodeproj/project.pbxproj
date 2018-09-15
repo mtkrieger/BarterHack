@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A2085D214C986E00735D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2085C214C986E00735D5E /* AppDelegate.swift */; };
+		09A2085F214C986E00735D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2085E214C986E00735D5E /* ViewController.swift */; };
+		09A20862214C986E00735D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A20860214C986E00735D5E /* Main.storyboard */; };
+		09A20865214C986E00735D5E /* BarterHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A20863214C986E00735D5E /* BarterHack.xcdatamodeld */; };
+		09A20867214C987000735D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A20866214C987000735D5E /* Assets.xcassets */; };
+		09A2086A214C987000735D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A20868214C987000735D5E /* LaunchScreen.storyboard */; };
+		09A20875214C987000735D5E /* BarterHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A20874214C987000735D5E /* BarterHackTests.swift */; };
+		09A20880214C987000735D5E /* BarterHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2087F214C987000735D5E /* BarterHackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A20871214C987000735D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A20851214C986E00735D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A20858214C986E00735D5E;
+			remoteInfo = BarterHack;
+		};
+		09A2087C214C987000735D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A20851214C986E00735D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A20858214C986E00735D5E;
+			remoteInfo = BarterHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A20859214C986E00735D5E /* BarterHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarterHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A2085C214C986E00735D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09A2085E214C986E00735D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09A20861214C986E00735D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A20864214C986E00735D5E /* BarterHack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarterHack.xcdatamodel; sourceTree = "<group>"; };
+		09A20866214C987000735D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A20869214C987000735D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09A2086B214C987000735D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A20870214C987000735D5E /* BarterHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarterHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A20874214C987000735D5E /* BarterHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterHackTests.swift; sourceTree = "<group>"; };
+		09A20876214C987000735D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A2087B214C987000735D5E /* BarterHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarterHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A2087F214C987000735D5E /* BarterHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterHackUITests.swift; sourceTree = "<group>"; };
+		09A20881214C987000735D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A20856214C986E00735D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A2086D214C987000735D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A20878214C987000735D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A20850214C986E00735D5E = {
+			isa = PBXGroup;
+			children = (
+				09A2085B214C986E00735D5E /* BarterHack */,
+				09A20873214C987000735D5E /* BarterHackTests */,
+				09A2087E214C987000735D5E /* BarterHackUITests */,
+				09A2085A214C986E00735D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09A2085A214C986E00735D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A20859214C986E00735D5E /* BarterHack.app */,
+				09A20870214C987000735D5E /* BarterHackTests.xctest */,
+				09A2087B214C987000735D5E /* BarterHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A2085B214C986E00735D5E /* BarterHack */ = {
+			isa = PBXGroup;
+			children = (
+				09A2085C214C986E00735D5E /* AppDelegate.swift */,
+				09A2085E214C986E00735D5E /* ViewController.swift */,
+				09A20860214C986E00735D5E /* Main.storyboard */,
+				09A20866214C987000735D5E /* Assets.xcassets */,
+				09A20868214C987000735D5E /* LaunchScreen.storyboard */,
+				09A2086B214C987000735D5E /* Info.plist */,
+				09A20863214C986E00735D5E /* BarterHack.xcdatamodeld */,
+			);
+			path = BarterHack;
+			sourceTree = "<group>";
+		};
+		09A20873214C987000735D5E /* BarterHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				09A20874214C987000735D5E /* BarterHackTests.swift */,
+				09A20876214C987000735D5E /* Info.plist */,
+			);
+			path = BarterHackTests;
+			sourceTree = "<group>";
+		};
+		09A2087E214C987000735D5E /* BarterHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09A2087F214C987000735D5E /* BarterHackUITests.swift */,
+				09A20881214C987000735D5E /* Info.plist */,
+			);
+			path = BarterHackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A20858214C986E00735D5E /* BarterHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A20884214C987000735D5E /* Build configuration list for PBXNativeTarget "BarterHack" */;
+			buildPhases = (
+				09A20855214C986E00735D5E /* Sources */,
+				09A20856214C986E00735D5E /* Frameworks */,
+				09A20857214C986E00735D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarterHack;
+			productName = BarterHack;
+			productReference = 09A20859214C986E00735D5E /* BarterHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A2086F214C987000735D5E /* BarterHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A20887214C987000735D5E /* Build configuration list for PBXNativeTarget "BarterHackTests" */;
+			buildPhases = (
+				09A2086C214C987000735D5E /* Sources */,
+				09A2086D214C987000735D5E /* Frameworks */,
+				09A2086E214C987000735D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A20872214C987000735D5E /* PBXTargetDependency */,
+			);
+			name = BarterHackTests;
+			productName = BarterHackTests;
+			productReference = 09A20870214C987000735D5E /* BarterHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09A2087A214C987000735D5E /* BarterHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A2088A214C987000735D5E /* Build configuration list for PBXNativeTarget "BarterHackUITests" */;
+			buildPhases = (
+				09A20877214C987000735D5E /* Sources */,
+				09A20878214C987000735D5E /* Frameworks */,
+				09A20879214C987000735D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A2087D214C987000735D5E /* PBXTargetDependency */,
+			);
+			name = BarterHackUITests;
+			productName = BarterHackUITests;
+			productReference = 09A2087B214C987000735D5E /* BarterHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A20851214C986E00735D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mikey T. Krieger";
+				TargetAttributes = {
+					09A20858214C986E00735D5E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					09A2086F214C987000735D5E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 09A20858214C986E00735D5E;
+					};
+					09A2087A214C987000735D5E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 09A20858214C986E00735D5E;
+					};
+				};
+			};
+			buildConfigurationList = 09A20854214C986E00735D5E /* Build configuration list for PBXProject "BarterHack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A20850214C986E00735D5E;
+			productRefGroup = 09A2085A214C986E00735D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A20858214C986E00735D5E /* BarterHack */,
+				09A2086F214C987000735D5E /* BarterHackTests */,
+				09A2087A214C987000735D5E /* BarterHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A20857214C986E00735D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A2086A214C987000735D5E /* LaunchScreen.storyboard in Resources */,
+				09A20867214C987000735D5E /* Assets.xcassets in Resources */,
+				09A20862214C986E00735D5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A2086E214C987000735D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A20879214C987000735D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A20855214C986E00735D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A20865214C986E00735D5E /* BarterHack.xcdatamodeld in Sources */,
+				09A2085F214C986E00735D5E /* ViewController.swift in Sources */,
+				09A2085D214C986E00735D5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A2086C214C987000735D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A20875214C987000735D5E /* BarterHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A20877214C987000735D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A20880214C987000735D5E /* BarterHackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A20872214C987000735D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A20858214C986E00735D5E /* BarterHack */;
+			targetProxy = 09A20871214C987000735D5E /* PBXContainerItemProxy */;
+		};
+		09A2087D214C987000735D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A20858214C986E00735D5E /* BarterHack */;
+			targetProxy = 09A2087C214C987000735D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09A20860214C986E00735D5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A20861214C986E00735D5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09A20868214C987000735D5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A20869214C987000735D5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A20882214C987000735D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09A20883214C987000735D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A20885214C987000735D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLB5HXJUN9;
+				INFOPLIST_FILE = BarterHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helikesit.BarterHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09A20886214C987000735D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLB5HXJUN9;
+				INFOPLIST_FILE = BarterHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helikesit.BarterHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09A20888214C987000735D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLB5HXJUN9;
+				INFOPLIST_FILE = BarterHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helikesit.BarterHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarterHack.app/BarterHack";
+			};
+			name = Debug;
+		};
+		09A20889214C987000735D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLB5HXJUN9;
+				INFOPLIST_FILE = BarterHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helikesit.BarterHackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarterHack.app/BarterHack";
+			};
+			name = Release;
+		};
+		09A2088B214C987000735D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLB5HXJUN9;
+				INFOPLIST_FILE = BarterHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helikesit.BarterHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarterHack;
+			};
+			name = Debug;
+		};
+		09A2088C214C987000735D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MLB5HXJUN9;
+				INFOPLIST_FILE = BarterHackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helikesit.BarterHackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarterHack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A20854214C986E00735D5E /* Build configuration list for PBXProject "BarterHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A20882214C987000735D5E /* Debug */,
+				09A20883214C987000735D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A20884214C987000735D5E /* Build configuration list for PBXNativeTarget "BarterHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A20885214C987000735D5E /* Debug */,
+				09A20886214C987000735D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A20887214C987000735D5E /* Build configuration list for PBXNativeTarget "BarterHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A20888214C987000735D5E /* Debug */,
+				09A20889214C987000735D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A2088A214C987000735D5E /* Build configuration list for PBXNativeTarget "BarterHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A2088B214C987000735D5E /* Debug */,
+				09A2088C214C987000735D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09A20863214C986E00735D5E /* BarterHack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09A20864214C986E00735D5E /* BarterHack.xcdatamodel */,
+			);
+			currentVersion = 09A20864214C986E00735D5E /* BarterHack.xcdatamodel */;
+			path = BarterHack.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09A20851214C986E00735D5E /* Project object */;
+}
